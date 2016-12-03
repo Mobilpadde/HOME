@@ -31,7 +31,7 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/MENU_ICON",
+                    "file": "images/MENU_ICON.png",
                     "menuIcon": true,
                     "name": "MENU_ICON",
                     "spaceOptimization": "memory",
