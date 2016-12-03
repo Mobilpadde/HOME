@@ -1,0 +1,55 @@
+{
+    "author": "Mobilpadde",
+    "dependencies": {
+        "kiezelpay-core": "^2.1.2",
+        "pebble-clay": "^1.0.3",
+        "pebble-events": "^1.2.0",
+        "seedrandom": "^2.4.2",
+        "simplex-noise": "^2.2.0"
+    },
+    "keywords": [],
+    "name": "home",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "HOME",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "size",
+            "multiplier",
+            "status",
+            "chunks",
+            "chunk",
+            "malloc",
+            "water",
+            "land",
+            "mountain",
+            "text"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/MENU_ICON",
+                    "menuIcon": true,
+                    "name": "MENU_ICON",
+                    "spaceOptimization": "memory",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "emery"
+        ],
+        "uuid": "2d5fc0f4-47d3-4609-b897-aaf0908ae101",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.1.0"
+}
